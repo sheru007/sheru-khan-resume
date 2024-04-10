@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/sheru-khan-resume/static/css/main.f855e6bc.css",
-    "main.js": "/sheru-khan-resume/static/js/main.5c07d225.js",
-    "static/js/453.ce49d465.chunk.js": "/sheru-khan-resume/static/js/453.ce49d465.chunk.js",
-    "static/media/logo.svg": "/sheru-khan-resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/sheru-khan-resume/static/css/main.bf538fe7.css",
+    "main.js": "/sheru-khan-resume/static/js/main.ddf7fefa.js",
+    "static/media/HeroImage.jpg": "/sheru-khan-resume/static/media/HeroImage.35092b5f561d1c44aff4.jpg",
     "index.html": "/sheru-khan-resume/index.html",
-    "main.f855e6bc.css.map": "/sheru-khan-resume/static/css/main.f855e6bc.css.map",
-    "main.5c07d225.js.map": "/sheru-khan-resume/static/js/main.5c07d225.js.map",
-    "453.ce49d465.chunk.js.map": "/sheru-khan-resume/static/js/453.ce49d465.chunk.js.map"
+    "main.bf538fe7.css.map": "/sheru-khan-resume/static/css/main.bf538fe7.css.map",
+    "main.ddf7fefa.js.map": "/sheru-khan-resume/static/js/main.ddf7fefa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.5c07d225.js"
+    "static/css/main.bf538fe7.css",
+    "static/js/main.ddf7fefa.js"
   ]
 }
