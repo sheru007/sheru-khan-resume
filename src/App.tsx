@@ -7,6 +7,7 @@ import NavBar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Experience from './components/Experience';
 
 
 const Body = styled.div`
@@ -31,6 +32,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Experience />
           </Wrapper>
           <Wrapper>
             <Education />
