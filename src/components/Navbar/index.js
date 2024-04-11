@@ -1,6 +1,6 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, ColorText, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+// import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
@@ -13,9 +13,9 @@ function NavBar() {
         <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          <ColorText>&lt;</ColorText>Sheru
+          <div style={{ color: theme.primary }}>/</div>Khan
+          <ColorText>&gt;</ColorText>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {

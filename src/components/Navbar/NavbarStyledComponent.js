@@ -2,6 +2,12 @@ import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 import _default from '../../themes/default';
 
+
+export const ColorText = styled.div`
+  color: ${({ theme }) => theme.primary};
+  font-size: 32px;
+`;
+
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
     height: 80px;
