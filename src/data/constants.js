@@ -169,16 +169,17 @@ export const experiences = [
     date: "Oct 2022 - Present",
     desc: "Working as a Senior Software Engineer",
     skills: [
+      "Tailwind CSS",
+      "React.js",
+      "SDK development",
       "Docker",
-      "Terraform",
       "AWS",
       "EC2",
-      "Portainer",
       "Nginx",
       "JavaScript",
       "TypeScript",
       "Node Js",
-      " Next Js",
+      "Next Js",
     ],
     // doc: "",
   },
@@ -211,7 +212,7 @@ export const experiences = [
       "ReactJS",
       "Redux",
       "NodeJs",
-      "Material UI",
+      "SDK development",
       "HTML",
       "CSS",
       "JavaScript",
@@ -260,15 +261,9 @@ export const projects = [
     description:
       "An Web App for checking top rated movie adn trending movie using Next.js",
     image:
-      "https://private-user-images.githubusercontent.com/77526923/313577732-1e3eae5b-7a89-408a-9fe2-d0d0d23bdac7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI3NzUzNzIsIm5iZiI6MTcxMjc3NTA3MiwicGF0aCI6Ii83NzUyNjkyMy8zMTM1Nzc3MzItMWUzZWFlNWItN2E4OS00MDhhLTlmZTItZDBkMGQyM2JkYWM3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDEwVDE4NTExMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY1ZTdkODU5OTk2M2ZhYjRlMWIyZDllYzUwMjJkMjZhZmIxMTFmN2VkZDk1NmFmZGZhNWJhNTQyZTAzZjlhNTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lb9iHHCLfuO_Di_zn32URuVy3kc6b8D5XnFKGEXLV-E",
+      "https://raw.githubusercontent.com/sheru007/sheru-khan-resume/main/src/images/imdb-clone-image.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
+      "Next.js",
       "MongoDb",
       "Node Js",
       "Express Js",
@@ -290,20 +285,20 @@ export const projects = [
     category: "web app",
     github: "https://github.com/sheru007/insta-clone-using-MERN",
     webapp: "",
-    member: [
-      {
-        name: "Sheru khan",
-        img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-        linkedin: "https://www.linkedin.com/in/sheru007/",
-        github: "https://github.com/sheru007/",
-      },
-      {
-        name: "Sheru khan",
-        img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-        linkedin: "https://www.linkedin.com/in/sheru007/",
-        github: "https://github.com/sheru007/",
-      },
-    ],
+    // member: [
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    // ],
   },
   {
     id: 1,
@@ -312,14 +307,14 @@ export const projects = [
     description:
       "A react app created from scratch using webpack, now using for machine coding projects",
     image:
-      "https://private-user-images.githubusercontent.com/77526923/321371706-5e2f183a-fdce-4d6a-b962-d6cae36761f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI3NzYyOTEsIm5iZiI6MTcxMjc3NTk5MSwicGF0aCI6Ii83NzUyNjkyMy8zMjEzNzE3MDYtNWUyZjE4M2EtZmRjZS00ZDZhLWI5NjItZDZjYWUzNjc2MWY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDEwVDE5MDYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJmMGVlNWQ0NWViOWNiNTFkNTRkN2FhZDlkNTJhMWRkYjgwMjExNDgxYjNjZmY1MWNkNzU1N2NhN2U4OTE5MDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RfRRp-WjIXenjMRJ0eHGEmtcx5jCHnkCYkpxT2MhJpU",
+      "https://raw.githubusercontent.com/sheru007/sheru-khan-resume/main/src/images/react-machine-coding.png",
     tags: [
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Javascript", 
+      "HTML", 
+      "CSS",
+      "Webpack",
+      "Create react app from scratch"
     ],
     category: "web app",
     github: "https://github.com/sheru007/react-projects-webpack",
@@ -330,27 +325,27 @@ export const projects = [
     title: "Vanilla JS Machine Coding Projects",
     date: "March 2024 - Present",
     description:
-      "Porject for machine coding interview question",
+      "Porject for vanilla JS machine coding interview question",
     image:
-      "https://private-user-images.githubusercontent.com/77526923/318174526-8ec136ad-b165-48fb-a404-d66347ffc49a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI3NzY0ODksIm5iZiI6MTcxMjc3NjE4OSwicGF0aCI6Ii83NzUyNjkyMy8zMTgxNzQ1MjYtOGVjMTM2YWQtYjE2NS00OGZiLWE0MDQtZDY2MzQ3ZmZjNDlhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDEwVDE5MDk0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc0ZWJmOWI3NjQwMDNmM2NhZmM3YzlkNDJlMDFjMGI4YTUxODg4ZjM5NDUzYmQyNmM4OWQ2MzAzZTM2MmNlMjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.L9UmOsPPeq4C1XwyYEvJv5EIpw-30N-nXh-lm7Ouw9A",
+      "https://raw.githubusercontent.com/sheru007/sheru-khan-resume/main/src/images/vanilla-js.png",
     tags: ["Javascript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/sheru007/vanilla-js-dom-projects",
     webapp: "https://sk-vanilla-js-dom-projects.netlify.app/",
-    member: [
-      {
-        name: "Sheru khan",
-        img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-        linkedin: "https://www.linkedin.com/in/sheru007/",
-        github: "https://github.com/sheru007/",
-      },
-      {
-        name: "Sheru khan",
-        img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-        linkedin: "https://www.linkedin.com/in/sheru007/",
-        github: "https://github.com/sheru007/",
-      },
-    ],
+    // member: [
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    // ],
   },
 ];
 
