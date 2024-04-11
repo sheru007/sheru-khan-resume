@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import './App.css';
 import styled, {ThemeProvider} from "styled-components";
 import { darkTheme, lightTheme } from './utils/Themes.js'
