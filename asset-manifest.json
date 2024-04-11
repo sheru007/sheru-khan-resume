@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sheru-khan-resume/static/css/main.bf538fe7.css",
-    "main.js": "/sheru-khan-resume/static/js/main.608adc19.js",
+    "main.js": "/sheru-khan-resume/static/js/main.06b6d6e3.js",
     "static/media/HeroImage.jpg": "/sheru-khan-resume/static/media/HeroImage.35092b5f561d1c44aff4.jpg",
     "index.html": "/sheru-khan-resume/index.html",
     "main.bf538fe7.css.map": "/sheru-khan-resume/static/css/main.bf538fe7.css.map",
-    "main.608adc19.js.map": "/sheru-khan-resume/static/js/main.608adc19.js.map"
+    "main.06b6d6e3.js.map": "/sheru-khan-resume/static/js/main.06b6d6e3.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.608adc19.js"
+    "static/js/main.06b6d6e3.js"
   ]
 }
