@@ -13,7 +13,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/sheru007/",
   leetcode: "https://leetcode.com/sheru/",
   twitter: "#",
-  insta: "#",
+  insta: "https://www.instagram.com/sherukhann/",
   facebook: "#",
 };
 
