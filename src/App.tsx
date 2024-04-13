@@ -26,6 +26,7 @@ const Wrapper = styled.div`
 `
 
 function App() {
+  console.log(">>>> USER NAME : ",process.env.REACT_APP_USER_NAME)
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
