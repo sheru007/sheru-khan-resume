@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HashRouter as Router } from 'react-router-dom';
 import './App.css';
 import styled, {ThemeProvider} from "styled-components";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+import { darkTheme } from './utils/Themes.js'
 import NavBar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
@@ -27,10 +27,10 @@ const Wrapper = styled.div`
 
 function App() {
   console.log(">>>> USER NAME : ",process.env.REACT_APP_USER_NAME)
-  const [darkMode, setDarkMode] = useState(true);
+  // const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={darkTheme}>
       <Router >
         <NavBar />
         <Body>
