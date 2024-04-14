@@ -8,8 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sheru007",
-  resume:
-    "https://drive.google.com/file/d/1kPzvCsbOwXAObTY6InFDR7D7rLBY2JQ0/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1JzOQp_TaUHfSIWyCnBZYSITkGXOJNSLL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sheru007/",
   leetcode: "https://leetcode.com/sheru/",
   twitter: "#",
@@ -288,6 +287,33 @@ export const projects = [
     webapp: "https://www.thepoolcircle.com/",
   },
   {
+    id: 0,
+    title: "Instagram Clone MERN Stack",
+    date: "Apr 2020 - May 2020",
+    description:
+      "Developed an Instagram Clone with multiple features like Sign-Up with Email Verification, Sign-In with Email notification, Forget and Reset password, CRUD operation on a post, Uploading an image to Cloudinary, Like and Unlike a post, Follow and Unfollow a user, Comment and Bookmark a post, Search User Feature",
+    image:
+      "https://github.com/sheru007/insta-clone-using-MERN/assets/77526923/1f480914-0be7-4836-95d7-6f40e19fb0e9",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "SendGrid for Email", "Cloudinary for image"],
+    category: "web app",
+    github: "https://github.com/sheru007/insta-clone-using-MERN",
+    webapp: "https://insta-clone-using-mern.onrender.com/",
+    // member: [
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    //   {
+    //     name: "Sheru khan",
+    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
+    //     linkedin: "https://www.linkedin.com/in/sheru007/",
+    //     github: "https://github.com/sheru007/",
+    //   },
+    // ],
+  },
+  {
     id: 9,
     title: "Imdb Clone Next.js",
     date: "Feb 2024 - March 2024",
@@ -305,33 +331,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/sheru007/imdb-clone",
     webapp: "https://imdb-clone-chi-kohl.vercel.app/",
-  },
-  {
-    id: 0,
-    title: "Instagram Clone MERN Stack",
-    date: "Apr 2020 - May 2020",
-    description:
-      "Developed an Instagram Clone with multiple features like Sign-Up with Email Verification, Sign-In with Email notification, Forget and Reset password, CRUD operation on a post, Uploading an image to Cloudinary, Like and Unlike a post, Follow and Unfollow a user, Comment and Bookmark a post, Search User Feature",
-    image:
-      "https://github.com/sheru007/insta-clone-using-MERN/assets/77526923/1f480914-0be7-4836-95d7-6f40e19fb0e9",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/sheru007/insta-clone-using-MERN",
-    webapp: "",
-    // member: [
-    //   {
-    //     name: "Sheru khan",
-    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-    //     linkedin: "https://www.linkedin.com/in/sheru007/",
-    //     github: "https://github.com/sheru007/",
-    //   },
-    //   {
-    //     name: "Sheru khan",
-    //     img: "https://avatars.githubusercontent.com/u/77526923?v=4",
-    //     linkedin: "https://www.linkedin.com/in/sheru007/",
-    //     github: "https://github.com/sheru007/",
-    //   },
-    // ],
   },
   {
     id: 1,
