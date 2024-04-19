@@ -30,6 +30,10 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1200px;
+
+  @media screen and (max-width: 768px) {
+      justify-content: flex-start;
+    }
 `;
 
 export const NavLogo = styled(LinkR)`

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HashRouter as Router } from 'react-router-dom';
 import './App.css';
 import styled, {ThemeProvider} from "styled-components";
-import { darkTheme } from './utils/Themes.js'
+import { darkTheme, lightTheme } from './utils/Themes.js'
 import NavBar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
@@ -25,13 +25,27 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 
+function getTheme() {
+  const val = localStorage.getItem('theme')
+  if(val !== null) {
+    return JSON.parse(val)
+  } else {
+    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkThemeMq.matches) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
 function App() {
-  // const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(getTheme());
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <NavBar />
+        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Body>
           <HeroSection />
           <Wrapper>

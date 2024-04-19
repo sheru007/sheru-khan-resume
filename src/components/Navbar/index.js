@@ -5,13 +5,15 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import ThemeToggle from './ThemeToggle';
 
-function NavBar() {
+function NavBar({darkMode, setDarkMode}) {
     const [isOpen, setIsOpen] = React.useState(false);
     const theme = useTheme()
     return (
         <Nav>
       <NavbarContainer>
+      <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
         <NavLogo to='/'>
           <ColorText>&lt;</ColorText>Sheru
           <div style={{ color: theme.primary }}>/</div>Khan
