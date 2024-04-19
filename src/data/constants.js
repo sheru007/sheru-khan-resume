@@ -167,6 +167,15 @@ export const experiences = [
     company: "Byju's",
     date: "Oct 2022 - Present",
     desc: "Working as a Senior Software Engineer",
+    works: [
+      "Building and maintaining Byjus Exam Prep App and Web with users>10M with 6  interns since June 23.",
+      "Built reusable widgets in Svelte and used them as custom HTML elements using Google Tag Manager.",
+      "Built an Android and IOS App for parents using Flutter to easily track students' performance, loans, EMI, Notices and many more.",
+      "Built an OnBoarding System for newly joined students that show tracking details for their tablets, upcoming classes, Parent Orientation and many more. It is integrated with multiple projects for the web and App.",
+      "Built an Upload-SDK that helps teachers to upload the assessment given by students that support multiple types of format, add/remove images to be uploaded, sort By images, handled upload error with re-try option with 0 console error. ",
+      "Built a Print-SDK that helps teachers to customize the question paper like adding or removing space/line for each question, dynamically add/remove pages, updating assessment info, showing name and roll number on a fixed template using Intersection-Observer and printing it for all selected student with 0 console error.",
+      "Used ReactJS, TypeScript, Tailwind CSS for styling, React-Intl for internationalization, swagger-client for dynamic client generation, Datadog RUM for performance, RTL & Jest & MSW for testing that can be integrated with any client, with test coverage of  >80%.",
+    ],
     skills: [
       "Micro-Frontend",
       "Google Tag Manager",
@@ -213,6 +222,11 @@ export const experiences = [
     company: "Toppr",
     date: "Aug 2020 - March 2022",
     desc: "Worked as a Software developer in a saas product for schools (toppr.school) with a daily active user(100K+)",
+    works: [
+      "Developed a Rating and Feedback system after every lecture for teachers and students that works for 2500+ scheduled lectures per day.",
+      "Built a Parent Module that helps parents to check attendance, marks, assignments and submissions.",
+      "Built a Test Manager Module that helps students and teachers to create tests and take tests.",
+    ],
     skills: [
       "React.js",
       "Redux",
@@ -225,6 +239,21 @@ export const experiences = [
       "Docker",
       "AWS",
       "Web Sockets"
+    ],
+  },
+  {
+    id: 3,
+    img: "https://raw.githubusercontent.com/sheru007/sheru-khan-resume/main/src/images/IITGLogo.png",
+    role: "Summer Intern(Full-Stack)",
+    company: "Student Web Committee, IIT Guwahati",
+    date: "MAY 2018 - JULY 2018",
+    desc: "Developed a dynamic web portal for submission and multi-stage approval of leave application with additional features like remark, leave availability, email confirmation",
+    skills: [
+      "Django",
+      "Python",
+      "Postgres",
+      "HTML",
+      "CSS",
     ],
   },
 ];

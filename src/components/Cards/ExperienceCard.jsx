@@ -141,6 +141,10 @@ const Skill = styled.div`
         font-size: 12px;
     }
 `
+const Works = styled.ul`
+    padding-left: 10px;
+    list-style-type: disc;
+`
 
 
 
@@ -159,6 +163,16 @@ const ExperienceCard = ({ experience }) => {
                 {experience?.desc &&
                     <Span>{experience?.desc}</Span>
 
+                }
+                <br />
+                {
+                    experience?.works?.length && (<Works>
+                        {
+                            experience?.works?.map(work => {
+                                return <li key={work}>{work}</li>
+                            })
+                        }
+                    </Works>)
                 }
                 {experience?.skills &&
                     <>
