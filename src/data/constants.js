@@ -299,6 +299,28 @@ export const education = [
 
 export const projects = [
   {
+    id: 11,
+    title: "Code Sandbox Clone",
+    date: "April 2024 - Present",
+    description:
+      "An web app that have basic feature of code editor like update code, terminal, preview.",
+    image:
+      "https://github.com/sheru007/code-sandbox-clone/assets/77526923/901d86ae-1f87-4214-b1a1-1c601ec14912",
+    tags: [
+      "Javascript(ES6)",
+      "React.js",
+      "Vite",
+      "Tailwinds CSS",
+      "Monaco Editor",
+      "Web Containers",
+      "Xterm.js for terminal",
+      "Vercel"
+    ],
+    category: "web app",
+    github: "https://github.com/sheru007/code-sandbox-clone",
+    webapp: "https://code-sandbox-clone.vercel.app/",
+  },
+  {
     id: 10,
     title: "Pool Circle Flutter App",
     date: "June 2023 - Oct 2023",
